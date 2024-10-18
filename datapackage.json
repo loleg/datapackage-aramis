@@ -1,0 +1,101 @@
+{
+  "resources": [
+    {
+      "name": "full_export",
+      "type": "table",
+      "licenses": [
+        {
+          "name": "CH - Open Use",
+          "path": "https://opendata.swiss/en/terms-of-use#terms_by",
+          "title": "Open use. Must provide the source."
+        }
+      ],
+      "sources": [
+        {
+          "title": "opendata.swiss",
+          "path": "https://opendata.swiss/en/dataset/aramis"
+        }
+      ],
+      "path": "full_export.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "schema": {
+        "fields": [
+          {
+            "name": "Forschungsstelle",
+            "type": "string"
+          },
+          {
+            "name": "Projektnummer",
+            "type": "string"
+          },
+          {
+            "name": "Projekttitel deutsch",
+            "type": "string"
+          },
+          {
+            "name": "Projekttitel englisch",
+            "type": "string"
+          },
+          {
+            "name": "Projekttitel französisch",
+            "type": "string"
+          },
+          {
+            "name": "Projekttitel italienisch",
+            "type": "string"
+          },
+          {
+            "name": "Kurzbeschreibung",
+            "type": "string"
+          },
+          {
+            "name": "Projektstatus",
+            "type": "string"
+          },
+          {
+            "name": "Bereich",
+            "type": "string"
+          },
+          {
+            "name": "Projektkategorie",
+            "type": "string"
+          },
+          {
+            "name": "NABS-Kategorie",
+            "type": "string"
+          },
+          {
+            "name": "Kontaktperson",
+            "type": "string"
+          },
+          {
+            "name": "Projektstart",
+            "type": "date"
+          },
+          {
+            "name": "Projektende",
+            "type": "date"
+          },
+          {
+            "name": "Gesamtkosten bewilligt",
+            "type": "number"
+          },
+          {
+            "name": "Forschungsart",
+            "type": "string"
+          }
+        ]
+      },
+      "contributors": [
+        {
+          "title": " Competence Center ARAMIS",
+          "email": "aramis@sbfi.admin.ch",
+          "path": "https://www.aramis.admin.ch/"
+        }
+      ]
+    }
+  ]
+}
